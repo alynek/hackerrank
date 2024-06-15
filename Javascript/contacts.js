@@ -77,4 +77,42 @@ function insere(noAtual, palavra){
 }
 
 
-//let no = new TrieNode()
+/* Sample Input
+
+// STDIN           Function
+// -----           --------
+// 4               queries[] size n = 4
+// add hack        queries = ['add hack', 'add hackerrank', 'find hac', 'find hak']
+// add hackerrank
+// find hac
+// find hak
+// Sample Output
+
+// 2
+// 0
+
+// queries = ['add hack ', 'add hackerrank', 'find hac', 'find hak']
+
+//Código no HackerRank, para transformar a variável: queries, em um array já separado
+// for (let i = 0; i < queries.length; i++) {
+//     queries[i] = queries[i].replace(/\s+$/g, '').split(' ');
+// }
+//queries = [
+    [
+        "add",
+        "hack"
+    ],
+    [
+        "add",
+        "hackerrank"
+    ],
+    [
+        "find",
+        "hac"
+    ],
+    [
+        "find",
+        "hak"
+    ]
+]
+*/
