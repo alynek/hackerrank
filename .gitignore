@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CSharp/.vs/hackerrank/FileContentIndex
+/CSharp/.vs/hackerrank/v17
+/CSharp/hackerrank/obj/Debug/net6.0/hackerrank.dll
+/CSharp/hackerrank/obj/Debug/net6.0/apphost.exe
+/CSharp/hackerrank/obj/Debug/net6.0/ref/hackerrank.dll
+/CSharp/hackerrank/obj/Debug/net6.0/hackerrank.AssemblyInfo.cs
+/CSharp/hackerrank/bin/Debug/net6.0/hackerrank.dll
+/CSharp/hackerrank/obj/Debug/net6.0/hackerrank.assets.cache
+*.json
