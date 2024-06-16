@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace hackerrank
+﻿namespace hackerrank
 {
     public class Tree
     {
@@ -15,11 +13,11 @@ namespace hackerrank
 
         public void PreorderTraversal(Tree root)
         {
-            if(root is null)
+            if (root is null)
             {
                 return;
             }
-            Console.Write($"{ root.Value} ");
+            Console.Write($"{root.Value} ");
 
             PreorderTraversal(root.Left);
             PreorderTraversal(root.Right);
