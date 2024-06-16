@@ -11,3 +11,8 @@
 /CSharp/hackerrank/bin/Debug/net6.0/hackerrank.dll
 /CSharp/hackerrank/obj/Debug/net6.0/hackerrank.assets.cache
 *.json
+/CSharp/.vs/hackerrank/DesignTimeBuild/.dtbcache.v2
+/CSharp/hackerrank/obj/Debug/net6.0/hackerrank.AssemblyInfo.cs
+/CSharp/hackerrank/obj/Debug/net6.0/hackerrank.AssemblyInfoInputs.cache
+/CSharp/hackerrank/obj/Debug/net6.0/hackerrank.assets.cache
+/CSharp/hackerrank/obj/Debug/net6.0/hackerrank.GeneratedMSBuildEditorConfig.editorconfig
