@@ -95,17 +95,26 @@
 
         static void Main()
         {
-            List<List<string>> queries = new List<List<string>>()
-            {
-                new List<string>() { "add", "hack" },
-                new List<string>() { "add", "hackerrank" },
-                new List<string>() { "find", "hac" },
-                new List<string>() { "find", "hak" }
-            };
+            //List<List<string>> queries = new List<List<string>>()
+            //{
+            //    new List<string>() { "add", "hack" },
+            //    new List<string>() { "add", "hackerrank" },
+            //    new List<string>() { "find", "hac" },
+            //    new List<string>() { "find", "hak" }
+            //};
 
-            var resultado = contacts(queries);
+            //var resultado = contacts(queries);
 
-            resultado.ForEach(x => Console.WriteLine(x));
+            //resultado.ForEach(x => Console.WriteLine(x));
+
+            var tree = new Tree(1);
+            tree.Left = new Tree(2);
+            tree.Right = new Tree(3);
+            tree.Left.Left = new Tree(4);
+            tree.Left.Right = new Tree(5);
+            tree.Right.Right = new Tree(6);
+
+            tree.PreorderTraversal(tree);
         }
     }
 }
